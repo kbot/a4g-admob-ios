@@ -96,7 +96,7 @@ didFailToPresentFullScreenContentWithError:(nonnull NSError *)error {
 
 - (void)presentFromViewController:(UIViewController *)viewController {
     if (_interstitialAd) {
-        [_interstitialAd presentFromRootViewController:self];
+        [_interstitialAd presentFromRootViewController:viewController];
     }
 }
 
