@@ -9,6 +9,7 @@
 #import "Ad4CustomEventIntertitial.h"
 #import "Ad4CustomEventBanner.h"
 #import "Ad4CustomEventRewarded.h"
+#import "Ad4CustomEventNative.h"
 
 @implementation Ad4CustomEvent{
     Ad4CustomEventRewarded *ad4Rewarded;
@@ -69,6 +70,12 @@
     ad4Rewarded = [[Ad4CustomEventRewarded alloc] init];
   [ad4Rewarded loadRewardedAdForAdConfiguration:adConfiguration
                                  completionHandler:completionHandler];
+}
+
+- (void)loadNativeAdForAdConfiguration:(GADMediationNativeAdConfiguration *)adConfiguration
+                     completionHandler:(GADMediationNativeLoadCompletionHandler)completionHandler {
+    Ad4CustomEventNative *ad4Native = [[Ad4CustomEventNative alloc] init];
+    [ad4Native loadNativeAdForAdConfiguration:adConfiguration completionHandler:completionHandler];
 }
 
 @end

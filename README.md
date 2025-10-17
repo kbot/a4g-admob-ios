@@ -4,6 +4,7 @@ Ad4Game iOS adapter for Admob.
 - [x] Banner
 - [x] Interstitial
 - [x] Rewarded
+- [x] Native
  
 ## Requirements
 
