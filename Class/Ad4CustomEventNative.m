@@ -169,7 +169,7 @@
     return YES;
 }
 
-#pragma mark - GADMediatedUnifiedNativeAd Protocol
+#pragma mark - GADMediationNativeAd Protocol
 
 - (void)didRenderInView:(UIView *)view
        clickableAssetViews:(NSDictionary<GADNativeAssetIdentifier, UIView *> *)clickableAssetViews
