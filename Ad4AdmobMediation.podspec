@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ad4AdmobMediation'
-  s.version          = '1.0.0'
-  s.summary          = '基础广告库'
+  s.version          = '1.0.2'
+  s.summary          = 'Ad4Game AdMob mediation adapter for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,14 +25,14 @@ Ad4game AdmobMediation ios
   s.homepage         = 'https://github.com/ad4game/a4g-admob-ios.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jeff.gong' => 'jeff@ad4game.com' }
+  s.author           = { 'Tech Team' => 'contact@ad4game.com' }
   s.source           = { :git => 'https://github.com/ad4game/a4g-admob-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'Class/**/*'
   s.static_framework = true
   s.public_header_files = 'Class/*.h'
   
-  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
 
 end

@@ -2,7 +2,7 @@
 //  Ad4CustomEventBanner.m
 //  AdmobMediation
 //
-//  Created by 靳昊禹 on 2023/4/7.
+//  Created by Ad4Game Team on 2023/4/7.
 //
 
 #import "Ad4CustomEventBanner.h"

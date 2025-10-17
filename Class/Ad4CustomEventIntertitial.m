@@ -2,7 +2,7 @@
 //  Ad4CustomEventIntertitial.m
 //  AdmobMediation
 //
-//  Created by 靳昊禹 on 2023/4/7.
+//  Created by Ad4Game Team on 2023/4/7.
 //
 
 #import "Ad4CustomEventIntertitial.h"
@@ -96,7 +96,7 @@ didFailToPresentFullScreenContentWithError:(nonnull NSError *)error {
 
 - (void)presentFromViewController:(UIViewController *)viewController {
     if (_interstitialAd) {
-        [_interstitialAd presentFromRootViewController:self];
+        [_interstitialAd presentFromRootViewController:viewController];
     }
 }
 
