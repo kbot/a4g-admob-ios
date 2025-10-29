@@ -30,3 +30,38 @@ You need to add Ad4Game placements provided by the Ad4Game team to the mediation
 **Custom Event screen parameters**<br />
 **Class Name** : Ad4CustomEvent<br />
 **Parameter** : Ad4Game Unit ID<br />
+
+## Changelog
+
+### Version 1.0.3 (Latest)
+- **SDK Support**: Google Mobile Ads SDK 12.x
+- **Features**: Banner, Interstitial, Rewarded, Native ads
+- **Compatibility**: iOS 12.0+
+- **Changes**: Updated SDK dependency to support 12.x series
+- **Installation**:
+  ```ruby
+  pod "Ad4AdmobMediation", :git => "https://github.com/ad4game/a4g-admob-ios.git", :tag => "1.0.3"
+  pod "Google-Mobile-Ads-SDK", "~> 12.0"
+  ```
+
+### Version 1.0.2
+- **SDK Support**: Google Mobile Ads SDK 11.x
+- **Features**: Banner, Interstitial, Rewarded, Native ads
+- **Compatibility**: iOS 12.0+
+- **Changes**: Added native ads support with GADNativeAd implementation
+- **Installation**:
+  ```ruby
+  pod "Ad4AdmobMediation", :git => "https://github.com/ad4game/a4g-admob-ios.git", :tag => "1.0.2"
+  pod "Google-Mobile-Ads-SDK", "~> 11.0"
+  ```
+
+### Version 1.0.0
+- **SDK Support**: Google Mobile Ads SDK 11.x
+- **Features**: Banner, Interstitial, Rewarded ads
+- **Compatibility**: iOS 12.0+
+- **Changes**: Initial release with basic ad formats
+- **Installation**:
+  ```ruby
+  pod "Ad4AdmobMediation", :git => "https://github.com/ad4game/a4g-admob-ios.git", :tag => "1.0.0"
+  pod "Google-Mobile-Ads-SDK", "~> 11.0"
+  ```
