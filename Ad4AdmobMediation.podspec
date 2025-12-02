@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ad4AdmobMediation'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'Ad4Game AdMob mediation adapter for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,6 @@ Ad4game AdmobMediation ios
   s.static_framework = true
   s.public_header_files = 'Class/*.h'
   
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.7.0'
 
 end
